@@ -195,6 +195,12 @@ nav .right a span {
 }
 
 @media (max-width: 768px) {
+
+  .projects-section {
+    padding: 50px 20px; 
+    text-align: center; 
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
