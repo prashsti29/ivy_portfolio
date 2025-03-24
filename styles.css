@@ -195,6 +195,12 @@ nav .right a span {
 }
 
 @media (max-width: 768px) {
+
+  .projects-section {
+    padding: 50px 20px; 
+    text-align: center; 
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
@@ -309,4 +315,17 @@ nav .right a span {
   .contact-section {
     padding: 0 20px;
   }
+
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .social {
+      justify-content: center;
+    }
+  }
+
 }
